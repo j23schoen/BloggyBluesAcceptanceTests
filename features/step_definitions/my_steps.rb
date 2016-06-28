@@ -2,6 +2,7 @@ require_relative '../workflows/navigation_actions'
 
 include NavigationActions
 
+
 Given(/^I am logged in as a blogger$/) do
   login_as_blogger
   sleep 2
@@ -18,3 +19,22 @@ end
 And(/^the newly added blog post is at the top of the recent posts list$/) do
   top_post_should_be_my_recent_post
 end
+
+
+
+
+
+
+
+Given(/^I visit the blog for my favorite blogger$/) do
+  visit_favorite_blogger
+end
+
+When(/^I choose a blog post$/) do
+  choose_blog_post
+end
+
+Then(/^I should see comments left by other readers$/) do
+  check_for_comments
+end
+

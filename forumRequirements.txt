@@ -1,0 +1,93 @@
+BLOG COMMENTS
+
+Feature: Blog Comments
+  In order to show the rest of the world I'm even smarter than the blogger
+  As a Reader
+  I want to be able to comment on a blog entry
+
+  Scenario: View Blog Comments
+    Given I visit the blog for my favorite blogger
+    When I choose a blog post
+    Then I should see comments left by other readers
+
+  # Use AJAX for this
+  # do not want the page to refresh
+  Scenario: Leave a comment (AJAX)
+    Given I am reading a blog post from my favorite blogger
+    When I add my genius comment to the blog post
+    Then my genius comment is at the top of the blog post comments
+
+
+
+
+
+
+
+CREATE BLOG ENTRIES
+
+Feature: Post a Blog Entry
+  In order to show the rest of the world how smart I am
+  As a Blogger
+  I want to be able to post a blog entry
+
+  Scenario: New Blog Post
+    Given I am logged in as a blogger
+    When I publish a new blog post
+    Then I am notified that the blog post was successfully added
+    And the newly added blog post is at the top of the recent posts list
+
+
+
+
+
+
+
+
+READING BLOG ENTRIES
+
+Feature: View Blog Entries
+  In order to stay up todate
+  As a Reader
+  I want to be able to view blog posts of my favorite blogger
+
+  Scenario: View Recent Blog Posts
+    Given my favorite blogger has been very active
+    When I visit the blog for my favorite blogger
+    Then then I should see a summary of my favorite blogger's 10 most recent posts in reverse order
+
+  Scenario: View a Blog Post
+    Given I visit the blog for my favorite blogger
+    When I choose a blog post
+    Then I should see the blog post
+
+  Scenario: Search for Blog Post
+    Given I visit the blog for my favorite blogger
+    When I search for a blog post
+    Then I should see posts with that value in the title
+
+
+
+
+SEARCHABILITY
+
+Feature: Search Engine Friendly URLs
+  In order to gain new followers
+  As a Blogger
+  I want my blog entries to be easily found by search engines
+
+  Scenario: Search Engine Friendly URLs (http://juddsolutions.blogspot.com/2011/02/free-mobile-development-lunch-and.html)
+    Given I visit the blog for my favorite blogger
+    When I choose a blog post
+    Then the url should contain information about the post
+
+
+
+
+
+EXTRA CREDIT
+
+1) make it attractive
+
+2) make it responsive
+
+3) use a security framework
