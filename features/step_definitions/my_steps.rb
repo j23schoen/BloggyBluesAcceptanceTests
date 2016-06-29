@@ -5,7 +5,6 @@ include NavigationActions
 
 Given(/^I am logged in as a blogger$/) do
   login_as_blogger
-  sleep 2
 end
 
 When(/^I publish a new blog post$/) do
@@ -27,6 +26,7 @@ end
 
 
 Given(/^I visit the blog for my favorite blogger$/) do
+  login_as_blogger
   visit_favorite_blogger
 end
 
@@ -38,3 +38,60 @@ Then(/^I should see comments left by other readers$/) do
   check_for_comments
 end
 
+
+#uses the above GIVEN AND WHEN
+Then(/^I should see the blog post$/) do
+  check_for_blog_post
+end
+
+
+
+#uses the above GIVEN AND WHEN
+Then(/^the url should contain information about the post$/) do
+  url_contains_post_info
+end
+
+
+
+
+
+Given(/^I am reading a blog post from my favorite blogger$/) do
+  login_as_blogger
+  visit_favorite_blogger
+end
+
+When(/^I add my genius comment to the blog post$/) do
+  make_a_comment
+end
+
+Then(/^my genius comment is at the top of the blog post comments$/) do
+  comment_should_be_at_top
+end
+
+
+
+
+Given(/^my favorite blogger has been very active$/) do
+  login_as_blogger
+  pending
+end
+
+Then(/^then I should see a summary of my favorite blogger's (\d+) most recent posts in reverse order$/) do |arg|
+  pending
+end
+
+
+
+
+
+
+
+
+
+When(/^I search for a blog post$/) do
+  visit_favorite_blogger
+end
+
+Then(/^I should see posts with that value in the title$/) do
+  pending
+end

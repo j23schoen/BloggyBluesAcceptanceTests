@@ -10,8 +10,11 @@ class BloggyBluesHome
   link(:login, :text => 'Login')
 
   div(:current_user, :id => 'loginHeader')
+
   div(:successful_post, :id => 'successfulPost')
 
   divs(:latest_post, :class => 'list')
 
+  text_field(:ajax_text_field, :id => 'ajaxTextField')
+  button(:ajax_search, :id => 'ajaxSearch')
 end
