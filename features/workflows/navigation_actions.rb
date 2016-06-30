@@ -51,8 +51,8 @@ module NavigationActions
 
   def visit_favorite_blogger
     on_page BloggyBluesHome do |page|
-      page.ajax_text_field = 'bruh'
-      page.ajax_search
+      page.search_text_field = 'bruh'
+      page.search_submit
     end
   end
 
