@@ -7,6 +7,6 @@ class BloggyBluesCreateBlog
   text_field(:title, :name => 'postTitle')
   text_field(:author, :name => 'author')
   text_field(:content, :id => 'content')
-  button(:create, :type => 'submit')
+  button(:create, :id => 'create')
 
 end

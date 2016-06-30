@@ -1,26 +1,21 @@
 require 'page-object'
+require_relative '../workflows/login_to_blog'
+
+include LoginToBloggyBlues
 
 module NavigationActions
 
   include PageObject::PageFactory
 
   def login_as_blogger
-    visit_page BloggyBluesHome
-
-    on_page BloggyBluesHome do |page|
-      page.login
-    end
-
-    on_page BloggyBluesLogin do |page|
-      page.name = 'admin'
-      page.password = 'admin'
-      page.submit
-    end
-
-    on_page BloggyBluesHome do |page|
-      expect(page.current_user).to include 'Hello, phil'
-    end
+    visit_homepage
+    navigate_to_login_page
+    enter_credentials
+    check_for_correct_user_credentials
   end
+
+
+
 
   def create_new_blog
     on_page BloggyBluesHome do |page|
@@ -36,16 +31,17 @@ module NavigationActions
   end
 
   def receive_notification
-    on_page BloggyBluesHome do |page|
+    on_page BloggyBluesShowPost do |page|
+
       expect(page.successful_post).to include 'Your post has been submitted'
+      page.home
     end
 
   end
 
-  #id be amazed if it does get the first div out of a collection of divs
   def top_post_should_be_my_recent_post
     on_page BloggyBluesHome do |page|
-      expect(page.latest_post_element.first).to include 'Automated Test'
+      expect(page.last_post).to include 'Automated Test'
     end
   end
 
@@ -55,7 +51,7 @@ module NavigationActions
 
   def visit_favorite_blogger
     on_page BloggyBluesHome do |page|
-      page.ajax_text_field = 'phil'
+      page.ajax_text_field = 'bruh'
       page.ajax_search
     end
   end
@@ -63,7 +59,7 @@ module NavigationActions
 
   def choose_blog_post
     on_page BloggyBluesProfile do |page|
-      expect(page.author).to include 'phil'
+      expect(page.author).to include 'bruh'
       page.posts_element.first.click
     end
   end

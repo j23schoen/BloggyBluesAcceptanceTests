@@ -11,10 +11,10 @@ class BloggyBluesHome
 
   div(:current_user, :id => 'loginHeader')
 
-  div(:successful_post, :id => 'successfulPost')
+  element(:last_post, :xpath => '//*[@id="Automated Test"]/a')
 
-  divs(:latest_post, :class => 'list')
+  divs(:all_posts, :class => 'list')
 
-  text_field(:ajax_text_field, :id => 'ajaxTextField')
-  button(:ajax_search, :id => 'ajaxSearch')
+  text_field(:search_text_field, :id => 'searchTextField')
+  button(:search_submit, :id => 'searchSubmit')
 end

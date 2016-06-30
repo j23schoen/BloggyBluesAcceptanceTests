@@ -6,6 +6,6 @@ require 'page-object'
 
     text_field(:name, :id => 'login')
     text_field(:password, :id => 'password')
-    button(:submit, :type => 'submit')
+    button(:submit, :text => 'Login')
 
   end
