@@ -6,15 +6,21 @@ class BloggyBluesHome
 
   page_url "localhost:8080/BloggyBlues"
 
-  link(:new_blog, :text => 'New Blog')
   link(:login, :text => 'Login')
 
   div(:current_user, :id => 'loginHeader')
 
+  link(:new_blog, :text => 'New Blog')
+
   element(:last_post, :xpath => '//*[@id="Automated Test"]/a')
 
-  divs(:all_posts, :class => 'list')
+  link(:most_recent_post, :xpath => '//div[@class="list"]/div[@class="blog"]/h2/a')[1]
+
+  element(:search_results, :xpath => '//div[@class="blog"]/h2/a')
+
+  divs(:all_posts, :class => 'blog')
 
   text_field(:search_text_field, :id => 'searchTextField')
+
   button(:search_submit, :id => 'searchSubmit')
 end

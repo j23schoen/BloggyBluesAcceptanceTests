@@ -21,13 +21,8 @@ end
 
 
 
-
-
-
-
 Given(/^I visit the blog for my favorite blogger$/) do
-  login_as_blogger
-  visit_favorite_blogger
+  go_to_homepage
 end
 
 When(/^I choose a blog post$/) do
@@ -53,11 +48,8 @@ end
 
 
 
-
-
 Given(/^I am reading a blog post from my favorite blogger$/) do
   login_as_blogger
-  visit_favorite_blogger
 end
 
 When(/^I add my genius comment to the blog post$/) do
@@ -72,16 +64,12 @@ end
 
 
 Given(/^my favorite blogger has been very active$/) do
-  login_as_blogger
-  pending
+
 end
 
 Then(/^then I should see a summary of my favorite blogger's (\d+) most recent posts in reverse order$/) do |arg|
-  pending
+  check_for_ten_posts
 end
-
-
-
 
 
 
@@ -89,9 +77,10 @@ end
 
 
 When(/^I search for a blog post$/) do
-  visit_favorite_blogger
+  search_for_blog_post
+  sleep 2
 end
 
 Then(/^I should see posts with that value in the title$/) do
-  pending
+  check_results
 end

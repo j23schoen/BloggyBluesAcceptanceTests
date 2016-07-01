@@ -7,14 +7,16 @@ module NavigationActions
 
   include PageObject::PageFactory
 
+  def go_to_homepage
+    visit_homepage
+  end
+
   def login_as_blogger
     visit_homepage
     navigate_to_login_page
     enter_credentials
     check_for_correct_user_credentials
   end
-
-
 
 
   def create_new_blog
@@ -48,19 +50,9 @@ module NavigationActions
 
 
 
-
-  def visit_favorite_blogger
-    on_page BloggyBluesHome do |page|
-      page.search_text_field = 'bruh'
-      page.search_submit
-    end
-  end
-
-
   def choose_blog_post
-    on_page BloggyBluesProfile do |page|
-      expect(page.author).to include 'bruh'
-      page.posts_element.first.click
+    on_page BloggyBluesHome do |page|
+      page.most_recent_post
     end
   end
 
@@ -95,9 +87,29 @@ module NavigationActions
 
   def check_for_blog_post
     on_page BloggyBluesShowPost do |page|
-      expect(page.post).to include 'Automated Test'
+      expect(page.post).to include 'By'
     end
 
+  end
+
+  def check_for_ten_posts
+    on_page BloggyBluesHome do |page|
+      number_of_divs = page.all_posts_elements.size
+      expect(number_of_divs).to eq(10)
+    end
+  end
+
+  def search_for_blog_post
+    on_page BloggyBluesHome do |page|
+      page.search_text_field = 'A'
+      page.search_submit
+    end
+  end
+
+  def check_results
+    on_page BloggyBluesHome do |page|
+      expect(page.search_results).to include 'A' or 'a'
+    end
   end
 
 end
