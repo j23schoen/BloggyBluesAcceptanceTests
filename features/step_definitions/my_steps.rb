@@ -4,7 +4,6 @@ include NavigationActions
 
 
 Given(/^I am logged in as a blogger$/) do
-  @browser.goto("localhost:8080/BloggyBlues")
   login_as_blogger
 end
 

@@ -72,11 +72,9 @@ module NavigationActions
   end
 
 
-#url is not 100% accurate
+#url is not 100% accurate but will get the url
   def url_contains_post_info
-    on_page BloggyBluesShowPosts do |page|
-      expect(page.url).to include 'http://localhost:8080/BloggyBlues/bloggyBlues/show/'
-    end
+    expect(on_page(BloggyBluesShowPost).current_url) == "localhost:8080/BloggyBlues/bloggyblues/show/"
   end
 
   def make_a_comment

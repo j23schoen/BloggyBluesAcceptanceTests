@@ -23,9 +23,7 @@ module LoginToBloggyBlues
   end
 
   def check_for_correct_user_credentials
-    # on_page BloggyBluesHome do |page|
       expect(on_page(BloggyBluesHome).current_user_element.text).to include 'Hello, bruh'
-    # end
   end
 
 end
