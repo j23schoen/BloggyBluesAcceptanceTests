@@ -23,4 +23,7 @@ class BloggyBluesHome
   text_field(:search_text_field, :id => 'searchTextField')
 
   button(:search_submit, :id => 'searchSubmit')
+
+  link(:automated_test_blog, :xpath => '//*[@id="Automated Test"]/a')
+
 end

@@ -26,7 +26,7 @@ Given(/^I visit the blog for my favorite blogger$/) do
 end
 
 When(/^I choose a blog post$/) do
-  choose_blog_post
+  choose_automated_test_blog_post
 end
 
 Then(/^I should see comments left by other readers$/) do
@@ -53,11 +53,12 @@ Given(/^I am reading a blog post from my favorite blogger$/) do
 end
 
 When(/^I add my genius comment to the blog post$/) do
-  make_a_comment
+  choose_automated_test_blog_post
+  write_comment
 end
 
 Then(/^my genius comment is at the top of the blog post comments$/) do
-  comment_should_be_at_top
+  check_for_comments
 end
 
 

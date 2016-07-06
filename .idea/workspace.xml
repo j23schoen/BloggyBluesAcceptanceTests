@@ -4,11 +4,11 @@
     <list default="true" id="c45232f6-10d2-4dac-b665-055b6eda27d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/BloggyBluesAcceptanceTests.iml" afterPath="$PROJECT_DIR$/.idea/BloggyBluesAcceptanceTests.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/blog_comments.feature" afterPath="$PROJECT_DIR$/features/blog_comments.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb" afterPath="$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/bloggy_blues_profile.rb" afterPath="$PROJECT_DIR$/features/page_classes/bloggy_blues_profile.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb" afterPath="$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/step_definitions/my_steps.rb" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/support/hooks.rb" afterPath="$PROJECT_DIR$/features/support/hooks.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/workflows/login_to_blog.rb" afterPath="$PROJECT_DIR$/features/workflows/login_to_blog.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/workflows/navigation_actions.rb" afterPath="$PROJECT_DIR$/features/workflows/navigation_actions.rb" />
     </list>
     <ignored path="BloggyBluesAcceptanceTests.iws" />
@@ -23,19 +23,29 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_a_Blog_Post.coverage" NAME="Scenario: View a Blog Post Coverage Results" MODIFIED="1467400122979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@creating_blog_entires_feature.coverage" NAME="creating_blog_entires.feature Coverage Results" MODIFIED="1467402097985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1467402506552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Recent_Blog_Posts.coverage" NAME="Scenario: View Recent Blog Posts Coverage Results" MODIFIED="1467401324787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Blog_Comments__3_.coverage" NAME="Scenario: View Blog Comments (3) Coverage Results" MODIFIED="1467734254085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Leave_a_comment__AJAX_.coverage" NAME="Scenario: Leave a comment (AJAX) Coverage Results" MODIFIED="1467827078639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Leave_a_comment__AJAX___1_.coverage" NAME="Scenario: Leave a comment (AJAX) (1) Coverage Results" MODIFIED="1467742252872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__New_Blog_Post__1_.coverage" NAME="Scenario: New Blog Post (1) Coverage Results" MODIFIED="1467721795029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_a_Blog_Post.coverage" NAME="Scenario: View a Blog Post Coverage Results" MODIFIED="1467826345679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Blog_Comments__2_.coverage" NAME="Scenario: View Blog Comments (2) Coverage Results" MODIFIED="1467734185824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Blog_Comments__1_.coverage" NAME="Scenario: View Blog Comments (1) Coverage Results" MODIFIED="1467742241508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@creating_blog_entires_feature.coverage" NAME="creating_blog_entires.feature Coverage Results" MODIFIED="1467826222117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@reading_blog_entries_feature.coverage" NAME="reading_blog_entries.feature Coverage Results" MODIFIED="1467826241325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Recent_Blog_Posts.coverage" NAME="Scenario: View Recent Blog Posts Coverage Results" MODIFIED="1467826263752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
     <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Search_for_Blog_Post__1_.coverage" NAME="Scenario: Search for Blog Post (1) Coverage Results" MODIFIED="1467401187435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Recent_Blog_Posts__1_.coverage" NAME="Scenario: View Recent Blog Posts (1) Coverage Results" MODIFIED="1467399945753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__New_Blog_Post.coverage" NAME="Scenario: New Blog Post Coverage Results" MODIFIED="1467399927645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@All_features_in_BloggyBluesAcceptanceTests__BloggyBluesAcceptanceTests.coverage" NAME="All features in BloggyBluesAcceptanceTests: BloggyBluesAcceptanceTests Coverage Results" MODIFIED="1467728076510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Recent_Blog_Posts__1_.coverage" NAME="Scenario: View Recent Blog Posts (1) Coverage Results" MODIFIED="1467728307386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_Blog_Comments.coverage" NAME="Scenario: View Blog Comments Coverage Results" MODIFIED="1467739147146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
     <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_a_Blog_Post__2_.coverage" NAME="Scenario: View a Blog Post (2) Coverage Results" MODIFIED="1467399991258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1467401687553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__New_Blog_Post.coverage" NAME="Scenario: New Blog Post Coverage Results" MODIFIED="1467721743883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@blog_comments_feature.coverage" NAME="blog_comments.feature Coverage Results" MODIFIED="1467826714088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
     <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@searchability_feature.coverage" NAME="searchability.feature Coverage Results" MODIFIED="1467302340059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_a_Blog_Post__1_.coverage" NAME="Scenario: View a Blog Post (1) Coverage Results" MODIFIED="1467399960455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
     <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Search_for_Blog_Post__2_.coverage" NAME="Scenario: Search for Blog Post (2) Coverage Results" MODIFIED="1467401313138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
-    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Search_for_Blog_Post.coverage" NAME="Scenario: Search for Blog Post Coverage Results" MODIFIED="1467402563364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__View_a_Blog_Post__1_.coverage" NAME="Scenario: View a Blog Post (1) Coverage Results" MODIFIED="1467728343658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Leave_a_comment__AJAX___2_.coverage" NAME="Scenario: Leave a comment (AJAX) (2) Coverage Results" MODIFIED="1467734712469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__Search_for_Blog_Post.coverage" NAME="Scenario: Search for Blog Post Coverage Results" MODIFIED="1467826358180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
+    <SUITE FILE_PATH="coverage/BloggyBluesAcceptanceTests@Scenario__New_Blog_Post__2_.coverage" NAME="Scenario: New Blog Post (2) Coverage Results" MODIFIED="1467728101270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="BloggyBluesAcceptanceTests" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -53,48 +63,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="navigation_actions.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/workflows/navigation_actions.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="786">
-              <caret line="110" column="54" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="blog_comments.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchability.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/searchability.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reading_blog_entries.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creating_blog_entires.feature" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/creating_blog_entires.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
               <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
@@ -106,18 +76,28 @@
       <file leaf-file-name="my_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1199">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+            <state relative-caret-position="397">
+              <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bloggy_blues_home.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb">
+      <file leaf-file-name="navigation_actions.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/workflows/navigation_actions.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+            <state relative-caret-position="1518">
+              <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bloggy_blues_show_post.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -136,19 +116,19 @@
         <option value="$PROJECT_DIR$/forumRequirements.txt" />
         <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_signup.rb" />
         <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_homepage.rb" />
-        <option value="$PROJECT_DIR$/features/blog_comments.feature" />
         <option value="$PROJECT_DIR$/features/workflows/create_blog_post.rb" />
         <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_login.rb" />
         <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_create_blog.rb" />
         <option value="$PROJECT_DIR$/features/reading_blog_entries.feature" />
-        <option value="$PROJECT_DIR$/features/workflows/login_to_blog.rb" />
         <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_profile.rb" />
-        <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb" />
         <option value="$PROJECT_DIR$/features/searchability.feature" />
-        <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/my_steps.rb" />
-        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb" />
         <option value="$PROJECT_DIR$/features/workflows/navigation_actions.rb" />
+        <option value="$PROJECT_DIR$/features/workflows/login_to_blog.rb" />
+        <option value="$PROJECT_DIR$/features/support/hooks.rb" />
+        <option value="$PROJECT_DIR$/features/blog_comments.feature" />
+        <option value="$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb" />
       </list>
     </option>
   </component>
@@ -189,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +276,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -303,7 +283,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Search for Blog Post">
+  <component name="RunManager" selected="Cucumber.Scenario: Leave a comment (AJAX)">
     <configuration default="false" name="Scenario: View Recent Blog Posts" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="BloggyBluesAcceptanceTests" />
@@ -336,7 +316,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="reading_blog_entries.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: View a Blog Post" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="BloggyBluesAcceptanceTests" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -355,7 +335,39 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/reading_blog_entries.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^View a Blog Post$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Search for Blog Post" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="BloggyBluesAcceptanceTests" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/reading_blog_entries.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Search for Blog Post$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -400,7 +412,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
-    <configuration default="false" name="creating_blog_entires.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration default="false" name="Scenario: Leave a comment (AJAX)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="BloggyBluesAcceptanceTests" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -417,41 +429,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/creating_blog_entires.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/blog_comments.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Scenario: Search for Blog Post" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="BloggyBluesAcceptanceTests" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/reading_blog_entries.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Search for Blog Post$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Leave a comment \(AJAX\)$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -580,17 +560,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: View Recent Blog Posts" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
-      <item index="3" class="java.lang.String" itemvalue="Cucumber.creating_blog_entires.feature" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Search for Blog Post" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber.Scenario: View a Blog Post" />
+      <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Search for Blog Post" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: Leave a comment (AJAX)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Search for Blog Post" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber.reading_blog_entries.feature" />
-        <item index="2" class="java.lang.String" itemvalue="Cucumber.creating_blog_entires.feature" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
+        <item index="0" class="java.lang.String" itemvalue="Cucumber.Scenario: Leave a comment (AJAX)" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber.blog_comments.feature" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber.Scenario: Search for Blog Post" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber.Scenario: View a Blog Post" />
         <item index="4" class="java.lang.String" itemvalue="Cucumber.Scenario: View Recent Blog Posts" />
       </list>
     </recent_temporary>
@@ -622,7 +602,10 @@
       <workItem from="1467386730141" duration="104000" />
       <workItem from="1467386956813" duration="9123000" />
       <workItem from="1467401273898" duration="833000" />
-      <workItem from="1467402127296" duration="1301000" />
+      <workItem from="1467402127296" duration="1841000" />
+      <workItem from="1467721733444" duration="654000" />
+      <workItem from="1467726517571" duration="12847000" />
+      <workItem from="1467825884714" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="Green Bar is Back!!!">
       <created>1467298856810</created>
@@ -638,56 +621,63 @@
       <option name="project" value="LOCAL" />
       <updated>1467301365232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="We got green on 4 out of 7 tests. Luke is missing.">
+      <created>1467403566422</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467403566422</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Search_for_Blog_Post - 2016.07.01 at 15h 49m 08s.xml">
+    <history-entry file="Scenario__Leave_a_comment_(AJAX) - 2016.07.06 at 13h 38m 57s.xml">
+      <configuration name="Scenario: Leave a comment (AJAX)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Leave_a_comment_(AJAX) - 2016.07.06 at 13h 39m 54s.xml">
+      <configuration name="Scenario: Leave a comment (AJAX)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Leave_a_comment_(AJAX) - 2016.07.06 at 13h 44m 47s.xml">
+      <configuration name="Scenario: Leave a comment (AJAX)" configurationId="CucumberRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Search_for_Blog_Post - 2016.07.06 at 13h 32m 45s.xml">
       <configuration name="Scenario: Search for Blog Post" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Search_for_Blog_Post - 2016.07.01 at 15h 49m 28s.xml">
-      <configuration name="Scenario: Search for Blog Post" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__View_Recent_Blog_Posts - 2016.07.06 at 13h 31m 06s.xml">
+      <configuration name="Scenario: View Recent Blog Posts" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="creating_blog_entires_feature - 2016.07.01 at 15h 40m 23s.xml">
-      <configuration name="creating_blog_entires.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__View_a_Blog_Post - 2016.07.06 at 13h 31m 14s.xml">
+      <configuration name="Scenario: View a Blog Post" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="creating_blog_entires_feature - 2016.07.01 at 15h 41m 38s.xml">
-      <configuration name="creating_blog_entires.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="Scenario__View_a_Blog_Post - 2016.07.06 at 13h 32m 30s.xml">
+      <configuration name="Scenario: View a Blog Post" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 29m 13s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2016.07.06 at 13h 33m 29s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 29m 37s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2016.07.06 at 13h 34m 10s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 34m 40s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 42m 36s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 44m 02s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
-    </history-entry>
-    <history-entry file="reading_blog_entries_feature - 2016.07.01 at 15h 48m 36s.xml">
-      <configuration name="reading_blog_entries.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="blog_comments_feature - 2016.07.06 at 13h 38m 46s.xml">
+      <configuration name="blog_comments.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75524000" />
+    <option name="totallyTimeSpent" value="90761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="2906" height="1754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20916906" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21883954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32987106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32090032" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44051448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33311898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33311898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47743165" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -732,7 +722,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Green Bar is Back!!!" />
     <MESSAGE value="Green Bar is Back!!! v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Green Bar is Back!!! v2" />
+    <MESSAGE value="We got green on 4 out of 7 tests. Luke is missing." />
+    <option name="LAST_COMMIT_MESSAGE" value="We got green on 4 out of 7 tests. Luke is missing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -824,50 +815,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb">
+    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        <state relative-caret-position="165">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/workflows/login_to_blog.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="674">
+          <caret line="25" column="88" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/support/hooks.rb">
+    <entry file="file://$PROJECT_DIR$/features/creating_blog_entires.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1199">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/workflows/navigation_actions.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="110" column="54" selection-start-line="110" selection-start-column="54" selection-end-line="110" selection-end-column="54" />
+        <state relative-caret-position="297">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -875,31 +842,55 @@
     <entry file="file://$PROJECT_DIR$/features/reading_blog_entries.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/searchability.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_home.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="79" selection-end-line="16" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/workflows/navigation_actions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1518">
+          <caret line="98" column="39" selection-start-line="98" selection-start-column="39" selection-end-line="98" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/blog_comments.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="198">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/creating_blog_entires.feature">
+    <entry file="file://$PROJECT_DIR$/features/page_classes/bloggy_blues_show_post.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="396">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>

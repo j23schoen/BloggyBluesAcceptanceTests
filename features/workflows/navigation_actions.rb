@@ -34,20 +34,27 @@ module NavigationActions
 
   def receive_notification
     on_page BloggyBluesShowPost do |page|
-
       expect(page.successful_post).to include 'Your post has been submitted'
       page.home
+      sleep 1
     end
 
   end
 
   def top_post_should_be_my_recent_post
+    sleep 1
     on_page BloggyBluesHome do |page|
       expect(page.last_post).to include 'Automated Test'
+
     end
   end
 
-
+  def choose_automated_test_blog_post
+    on_page BloggyBluesHome do |page|
+      page.automated_test_blog
+      sleep 1
+    end
+  end
 
 
   def choose_blog_post
@@ -56,10 +63,20 @@ module NavigationActions
     end
   end
 
-#.exists? probably aint right
+  def write_comment
+    on_page BloggyBluesShowPost do |page|
+      page.comment_add
+      sleep 1
+      page.comment_text = 'This is my test comment'
+      sleep 1
+      page.create_comment
+      sleep 1
+    end
+  end
+
   def check_for_comments
-    on_page BloggyBluesShowPosts do |page|
-      expect(page.comments).exists?
+    on_page BloggyBluesShowPost do |page|
+      expect(page.first_comment).to include 'This is my test comment'
     end
   end
 
@@ -67,14 +84,6 @@ module NavigationActions
 #url is not 100% accurate but will get the url
   def url_contains_post_info
     expect(on_page(BloggyBluesShowPost).current_url) == "localhost:8080/BloggyBlues/bloggyblues/show/"
-  end
-
-  def make_a_comment
-    on_page BloggyBluesShowPosts do |page|
-      page.reply
-      page.comment_text = 'Your Automated Test Is Working Great!'
-      page.submit
-    end
   end
 
   def comment_should_be_at_top

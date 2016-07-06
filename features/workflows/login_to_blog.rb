@@ -23,7 +23,7 @@ module LoginToBloggyBlues
   end
 
   def check_for_correct_user_credentials
-      expect(on_page(BloggyBluesHome).current_user_element.text).to include 'Hello, bruh'
+      expect(on_page(BloggyBluesHome).current_user_element.text).to include 'Hello, phil'
   end
 
 end
